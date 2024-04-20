@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #c8e7e2;
+    color: black;
+    font-family: "Poppins", sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    background-color: #f4e8e8;
+    font-size: 1.5rem;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+
+}
+
+nav ul li a:hover {
+    color: rgb(129, 23, 171);
+    font-size: 1.59rem;
+}
+
+.left {
+    font-size: 1.5rem;
+}
+
+.firstsection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 110px 0;
+}
+
+main hr {
+    border: 0;
+    background-color: #bcb0b0;
+    height: 1.5px;
+    margin: 60px 84px;
+}
+
+.firstsection div {
+    width: auto;
+}
+
+.leftsection {
+    font-size: 3rem;
+}
+
+.leftsection .buttons {
+    padding: 50px 0;
+}
+
+.leftsection .btn {
+    padding: 12px;
+    background-color: #bb9494;
+    color: white;
+    border: 2px solid white;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 20px;
+  
+}
+
+.rightsection {
+    width: 80%;
+
+}
+
+.name {
+    color: palevioletred;
+}
+
+.text-grey {
+    color: #4c587d;
+    font-size: 1.4rem;
+}
+
+#element {
+    color: palevioletred;
+}
+
+.secondsection {
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+
+}
+
+.secondsection h1 {
+    font-size: 1.9rem;
+}
+
+.secondsection .box {
+    background-color: white;
+    width: 76vw;
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+
+}
+
+.secondsection .vertical {
+    height: 93px;
+    width: 1px;
+    background-color: white;
+    margin: 0 150px;
+}
+
+.image-top {
+    width: 30px;
+    position: relative;
+    top: -32px;
+    left: -9px;
+
+}
+
+.vertical-tittle {
+    position: relative;
+    top: 75px;
+    width: 150px;
+    font-size: 25px;
+
+}
+
+.vertical-desc {
+    position: relative;
+    top: 86px;
+    width: 150px;
+    font-size: 20px;
+    color: #4c587d;
+}
+
+footer {
+    background-color: #f4e8e8;
+    /* height: 200px; */
+}
+
+.footer {
+    display: flex;
+    padding: 25px 122px;
+    justify-content: space-evenly;
+    font-size: 20px;
+}
+
+.footer ul {
+    list-style: none;
+}
+
+footer .footer-rights {
+    text-align: center;
+    padding: 12px 0;
+}
+
+/* .footer > div{
+    width: 300px;
+} */
